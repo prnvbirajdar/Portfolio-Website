@@ -32,7 +32,7 @@ body {
     box-sizing: border-box;
 }
 
-.logo-box {
+.header__logo-box {
     position: absolute;
     top: 4rem;
     left: 4rem;
@@ -48,18 +48,18 @@ body {
     animation: logoAnimate 500ms ease-out
 }
 
-.text-box {
+.header__text-box {
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.heading-primary {
+.heading--primary {
     backface-visibility: hidden;
 }
 
-.heading-intro {
+.heading--intro {
     display: block;
     font-family: 'Roboto Mono', monospace;
     color: #64ffda;
@@ -70,7 +70,7 @@ body {
     animation: introFirst 600ms ease-out
 }
 
-.heading-main {
+.heading--main {
     display: block;
     font-size: 8rem;
     font-weight: bolder;
@@ -80,12 +80,13 @@ body {
 
 }
 
-.heading-secondary {
+.heading--secondary {
     display: block;
     font-size: 1.8rem;
     font-weight: 400;
     color: #a8b2d1;
     letter-spacing: 0;
+    margin-bottom: 1rem;
 
     animation: introSecondary 1s ease-out;
 
@@ -198,9 +199,6 @@ body {
     margin-top: 1.6rem;
 
     animation: twoButtons 1.2s ease-out;
-
-
-    /* transition: all 0.1s; */
 }
 
 .btn:hover {
@@ -212,6 +210,6 @@ body {
     transform: translateY(-0.1rem);
 }
 
-.btn-resume {
+.btn--resume {
     margin-left: 3rem;
 }
